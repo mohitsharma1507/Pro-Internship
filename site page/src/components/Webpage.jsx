@@ -43,7 +43,7 @@ function Webpage() {
                     <p>140052666,Computer Engineer follow this</p>
                 </div>
             </div>
-            <div className=" d-lg-flex justify-content-between mx-auto align-item-center container sticky top lower">
+            <div className=" d-lg-flex justify-content-between mx-auto align-item-center lower">
                 <ul className='nav my-2 '>
                     <li className='nav-item1'>
                         <Link className="nav-link active" to="/"><u>All Posts(32)</u></Link>

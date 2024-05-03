@@ -84,7 +84,7 @@
 /* Webpage.css */
 
 /* Define your styles for large screens */
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
   .lower {
     position: sticky;
     top: 0;
@@ -108,10 +108,10 @@
   .location-info {
     font-size: 14px;
   }
-}
+} */
 
 /* Define your styles for small screens */
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 791px) {
   .navbar {
     padding: 0;
   }
@@ -130,6 +130,7 @@
 
   .lower {
     padding-top: 60px;
+    opacity: 0;
   }
 
   .card {
@@ -139,6 +140,7 @@
   .posts-center {
     flex-direction: column;
     gap: 30px;
+    width: 500px;
   }
 
   .input-text {
